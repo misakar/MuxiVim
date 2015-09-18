@@ -23,8 +23,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 inoremap jk <esc>
 " 将:键绑定为空格键
 nnoremap <space> :
-" 目录树导航
-map <Leader>t :NERDTreeToggle<CR>
 
 
 " 复制、粘贴大量代码
@@ -55,6 +53,8 @@ inoremap <C-Z> <C-O>:update<CR>
 " 快速退出命令
 noremap <Leader>e :quit<CR>  " 退出当前窗口
 noremap <Leader>E :qa!<CR>   " 退出所有tab窗口
+" 目录树导航
+map <Leader>t :NERDTreeToggle<CR>
 
 
 " Ctrl + <movement>(j,k,l,h) 在不同的窗口移动
@@ -168,6 +168,18 @@ let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 
+" vim-minimap 配置
+" cd ~/.vim/bundle
+" git clone git://github.com/severin-lemaignan/vim-minimap
+let g:minimap_highlight='Visual'
+
+
+" neocomplete.vim 配置
+" cd ~/.vim/bundle
+" git clone https://github.com/Shougo/neocomplete.vim.git
+let g:neocomplete#enable_at_startup = 1
+
+
 set completeopt=longest,menuone
 function! OmniPopup(action)
     if pumvisible()
@@ -179,6 +191,7 @@ function! OmniPopup(action)
     endif
     return a:action
 endfunction
+
 
 inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
 inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
