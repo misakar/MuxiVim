@@ -54,7 +54,7 @@ inoremap <C-Z> <C-O>:update<CR>
 noremap <Leader>e :quit<CR>  " 退出当前窗口
 noremap <Leader>E :qa!<CR>   " 退出所有tab窗口
 " 目录树导航
-map <Leader>t :NERDTreeToggle<CR>
+map ff :NERDTreeToggle<CR>
 
 
 " Ctrl + <movement>(j,k,l,h) 在不同的窗口移动
