@@ -50,9 +50,11 @@ inoremap <C-n> :nohl<CR>
 noremap <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
+
 " 快速退出命令
 noremap <Leader>e :quit<CR>  " 退出当前窗口
 noremap <Leader>E :qa!<CR>   " 退出所有tab窗口
+
 " 目录树导航
 map ff :NERDTreeToggle<CR>
 
@@ -85,6 +87,11 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
 color wombat256mod
+" color TNB
+" color TNBlue
+" color T
+" color m
+
 
 
 " 代码高亮(皮肤很重要:)
