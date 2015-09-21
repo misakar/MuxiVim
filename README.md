@@ -71,6 +71,12 @@ repo: http://github.com/severin-lemaignan/vim-minimap <br/>
 
 repo:  https://github.com/Shougo/neocomplete.vim.git <br/>
 
+### nerdtree
+
+    文件目录树导航
+
+repo: https://github.com/scrooloose/nerdtree <br/>
+
 <hr/>
 
 ## 感谢
