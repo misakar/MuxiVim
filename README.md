@@ -26,8 +26,11 @@
 
     ~ cd ~
     ~ git clone https://github.com/neo1218/n-vim.git
+### 2. 覆盖.vimrc文件
+    
+    ~ cp ~/n-vim/.vimrc ~/.vimrc
 
-### 2. 阅读 ~/.vimrc 文件!
+### 3. 阅读 ~/.vimrc 文件!
 这一点十分重要，你可以通过阅读该文件获取以下信息
 
     1. vim的快捷键设置
