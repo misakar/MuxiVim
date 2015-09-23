@@ -18,7 +18,7 @@ cp -r ~/n-vim/ ~/.vim
 
 # .vimrc
 echo "making .vimrc"
-cp -r ~/n-vim/ ~/.vimrc
+cp -r ~/n-vim/vimrc ~/.vimrc
 
 echo " =============================================================================="
 echo " This is my vim file"
