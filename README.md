@@ -14,7 +14,7 @@
 
 使用包管理工具安装vim: 例如mac(使用homebrew):
 
-    ~ brew install vim --with-lua
+    ~> brew install vim --with-lua
 
 升级完成后修改~/.zshrc(bash用户修改~/.bashrc)文件,添加下面这行
 
@@ -24,20 +24,36 @@
 
 ### 1. clone这个仓库
 
-    ~ cd ~
-    ~ git clone https://github.com/neo1218/n-vim.git
-### 2. 覆盖.vimrc文件
-    
-    ~ cp ~/n-vim/.vimrc ~/.vimrc
+    ~> cd ~
+    ~> git clone https://github.com/neo1218/n-vim.git
 
-### 3. 阅读 ~/.vimrc 文件!
-这一点十分重要，你可以通过阅读该文件获取以下信息
+### 2. 安装 n-vim
 
-    1. vim的快捷键设置
-    2. 更改主题配色方案
-    3. 插件安装管理
+    ~> cd ~/n-vim
+    ~> chmod -x install.sh
+    ~> ./install.sh
 
 <hr/>
+
+## n-vim 使用说明
+### 插件安装管理
+
+    1. 在github上找寻相关插件
+    2. 在 ~/.vim/bundle/ clone 插件所在的仓库
+    3. 依据插件文档在 vimrc 文件中添加配置
+
+### 常见快捷键设置
+
+    0. <leader>映射,
+    1. <esc>映射为jk
+    2. ff 打开目录树导航
+    3. <space> 进入命令输入:
+    4. <space>:Minimap/MinimapClose: 开启/关闭 Minimap
+    5. i + f2: 在插入模式中进入粘贴模式 <esc> 退出
+    6. , + e: 直接退出
+    7. , + E: 强制退出(一般用于无修改情况)
+    8. ctrl-p: 自动补全选中
+
 
 ## my vim plugin
 
@@ -88,3 +104,7 @@ repo: https://github.com/scrooloose/nerdtree <br/>
 
     https://github.com/mbrochh/vim-as-a-python-ide
     这个pycon视频给了我很大的帮助
+
+## 问题
+
+    如果有问题，欢迎提issue
