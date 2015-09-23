@@ -19,7 +19,7 @@ cp -r ~/n-vim/ ~/.vim
 
 # .vimrc
 echo "----making .vimrc----"
-cp -r ~/n-vim/ ~/.vimrc
+cp  ~/n-vim/ ~/.vimrc
 
 
 # 安装插件

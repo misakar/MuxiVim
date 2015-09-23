@@ -30,7 +30,7 @@
 ### 2. 安装 n-vim
 
     ~> cd ~/n-vim
-    ~> chmod -x install.sh
+    ~> chmod 777 install.sh
     ~> ./install.sh
 
 <hr/>
