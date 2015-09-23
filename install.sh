@@ -19,7 +19,7 @@ cp -r ~/n-vim/ ~/.vim
 
 # .vimrc
 echo "----making .vimrc----"
-cp  ~/n-vim/ ~/.vimrc
+cp  ~/n-vim/vimrc ~/.vimrc
 
 
 # 安装插件
@@ -47,7 +47,7 @@ git clone https://github.com/Shougo/neocomplete.vim.git
 echo "install neocomplete.vim done! \n"
 
 echo "nerdtree"
-https://github.com/scrooloose/nerdtree
+git clone https://github.com/scrooloose/nerdtree
 echo "install nerdtree done! \n"
 
 echo "----install done!----"
