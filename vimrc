@@ -57,7 +57,7 @@ noremap <Leader>E :qa!<CR>   " 退出所有tab窗口
 
 " 目录树导航
 map ff :NERDTreeToggle<CR>
-
+let NERDTreeDirArrows=0
 
 " Ctrl + <movement>(j,k,l,h) 在不同的窗口移动
 map <c-j> <c-w>j
