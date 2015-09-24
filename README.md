@@ -37,6 +37,14 @@
     ~> chmod 777 install.sh
     ~> ./install.sh
 
+### 3. vim 乱码
+
+    如果你的vim显示乱码，请在~/.vimrc中添加
+
+    set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+    set termencoding=utf-8
+    set encoding=utf-8
+
 <hr/>
 
 ## n-vim 使用说明
