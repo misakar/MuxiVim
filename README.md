@@ -1,5 +1,5 @@
 # n-vim
-## my vimrc file, using pathogen to manage vim plugin
+## my vim as python ide & hack text
 
 ## vim is great!
 ### mac 本地截图
