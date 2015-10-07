@@ -45,6 +45,18 @@
     set termencoding=utf-8
     set encoding=utf-8
 
+### 4. 更新vim
+
+    我会添加一些比较好的配置, 如果你希望拥有配置
+
+    ~> cd ~/n-vim
+    ~> git pull https://github.com/neo1218/n-vim.git master
+    ~> ./install.sh
+
+    但是：更新配置会覆盖你自己的配置(inssue)
+
+    具体更新信息见 更新日志
+
 <hr/>
 
 ## n-vim 使用说明
@@ -120,3 +132,6 @@ repo: https://github.com/scrooloose/nerdtree <br/>
 ## 问题
 
     如果有问题，欢迎提issue
+
+## 更新日志
+20151001: v1.0
