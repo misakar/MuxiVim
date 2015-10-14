@@ -66,18 +66,27 @@
     2. 在 ~/.vim/bundle/ clone 插件所在的仓库
     3. 依据插件文档在 vimrc 文件中添加配置
 
-### 常见快捷键设置
+### 特殊快捷键设置(完整说明: ISSUE #3)
 
-    0. <leader>映射,
-    1. <esc>映射为jk
-    2. ff 打开目录树导航
-    3. <space> 进入命令输入:
-    4. <space>:Minimap/MinimapClose: 开启/关闭 Minimap
-    5. i + f2: 在插入模式中进入粘贴模式 <esc> 退出
-    6. , + e: 直接退出
-    7. , + E: 强制退出(一般用于无修改情况)
-    8. ctrl-p: 自动补全选中
+    0.预备:
+        1.模式之间采用 jk 切换
+        2.<space>空格进入命令模式
+        3.<leader>键映射为,
 
+    1. normal正常模式
+        1. ff: 开启目录树导航
+        2. C-p: 快速搜索文件
+        3. /: 查找
+        4. :Minimap 开启minimap
+        5. , + e ＝ wq
+        6. , + E = q!
+
+    2. i插入模式
+        1. f2: 在插入模式下复制粘贴
+
+    3. v可视模式
+
+    其余快捷键与vim默认快捷键相同
 
 ## my vim plugin
 
@@ -135,3 +144,4 @@ repo: https://github.com/scrooloose/nerdtree <br/>
 
 ## 更新日志
 20151001: v1.0
+20151013: v1.0+
