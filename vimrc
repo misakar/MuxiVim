@@ -148,6 +148,7 @@ set noswapfile
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 call pathogen#infect()
+execute pathogen#infect()
 
 
 " vim-powerline 配置
