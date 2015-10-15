@@ -106,7 +106,7 @@
     MuxiVim的人就可以了结并选择使用你分享的插件啦:)
 
 ## MuxiVim plugin repo
-url:https://github.com/neo1218/MuxiVim/tree/master/bundl://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
+url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 
 ## update MuxiVim
 
