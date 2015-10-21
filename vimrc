@@ -25,6 +25,11 @@ inoremap jk <esc>
 nnoremap <space> :
 
 
+" 文件回溯(next & prev)
+nnoremap <space>n <space>bn
+nnoremap <space>p <space>bp
+
+
 " 复制、粘贴大量代码
 " --INSERT(paste)--
 set pastetoggle=<F2>
@@ -40,7 +45,7 @@ let mapleader = ","
 
 
 " 绑定 nohl
-noremap <C-n> :nohl<CR>
+nnoremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
@@ -56,8 +61,9 @@ noremap <Leader>e :quit<CR>  " 退出当前窗口
 noremap <Leader>E :qa!<CR>   " 退出所有tab窗口
 
 " 目录树导航
-map ff :NERDTreeToggle<CR>
+map ; :NERDTreeToggle<CR>
 let NERDTreeDirArrows=0
+
 
 " Ctrl + <movement>(j,k,l,h) 在不同的窗口移动
 map <c-j> <c-w>j
@@ -93,11 +99,16 @@ color wombat256mod
 " color m
 
 
-
 " 代码高亮(皮肤很重要:)
 filetype off
 filetype plugin indent on
 syntax on
+
+
+" google yapf 格式化工具规定的python代码风格
+autocmd FileType python set shiftwidth=2
+autocmd FileType python set tabstop=2
+autocmd FileType python set softtabstop=2
 
 
 " 显示行号
@@ -141,6 +152,31 @@ set nowritebackup
 set noswapfile
 
 
+" cscope setting
+" cscope 方便在vim中浏览源代码
+" cscope 生成索引数据库, 方便我们在vim中查找函数和变量
+if has("cscope")
+    set csprg=/usr/bin/cscope
+    set csto=1
+    set cst
+    set nocsverb
+    " add any database in current directory
+    if filereadable("cscope.out")
+        cs add cscope.out
+    endif
+    set csverb
+endif
+
+nmap <C-@>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-@>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-@>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-@>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-@>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-@>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-@>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+
 "==============================================================================
 "                       python      (""pathogen"")      插件管理
 "==============================================================================
@@ -148,7 +184,6 @@ set noswapfile
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 call pathogen#infect()
-execute pathogen#infect()
 
 
 " vim-powerline 配置

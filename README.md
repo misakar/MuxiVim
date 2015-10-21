@@ -60,17 +60,18 @@
 ### 特殊快捷键设置(完整说明: ISSUE #3)
 
     0.预备:
-        1.模式之间采用 jk 切换
-        2.<space>空格进入命令模式
+        1.模式之间采用 jk 切换(jk绑定<esc>)
+        2.<space>空格进入命令模式(<space>绑定:)
         3.<leader>键映射为,
 
     1. normal正常模式
-        1. ff: 开启目录树导航
-        2. C-p: 快速搜索文件
-        3. /: 查找
+        1. ;开启目录树导航
+        2. C-p快速搜索文件
+        3. /文件内查找
         4. :Minimap 开启minimap
         5. , + e ＝ wq
         6. , + E = q!
+        7. v进入可视模式后全选,=进行代码格式化
 
     2. i插入模式
         1. f2: 在插入模式下复制粘贴
@@ -121,4 +122,7 @@ url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 
 
 ## 更新日志(插件更新)
+2015年10月21:
 
+    1.修改vimrc文件，将目录树开启由ff设置为;
+    2.设置vim的python格式化为Google推荐的python格式
