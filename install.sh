@@ -2,7 +2,7 @@
 
 # ===================
 #
-#   n-vim  安装脚本
+#   MuxiVim  安装脚本
 #
 # ===================
 
@@ -14,12 +14,12 @@ echo "\n"
 
 # .vim
 echo "----making .vim----"
-cp -r ~/n-vim/ ~/.vim
+cp -r ~/MuxiVim/ ~/.vim
 
 
 # .vimrc
 echo "----making .vimrc----"
-cp  ~/n-vim/vimrc ~/.vimrc
+cp  ~/MuxiVim/vimrc ~/.vimrc
 
 
 # 安装插件
@@ -54,12 +54,12 @@ echo "----install done!----"
 
 
 echo " =============================================================================="
-echo " |                                 n-vim                                      |"
+echo " |                                 MuxiVim                                    |"
 echo " |          ref -> https://github.com/mbrochh/vim-as-a-python-ide             |"
 echo " |                         @neo1218 2015y 9m 17d                              |"
 echo " |                              version: 1.0                                  |"
 echo " =============================================================================="
 echo " ||  ||  ||====   ||     ||     |====|   O    neo1218                         |"
-echo " ||==||  ||===    ||     ||     |    |  |||           vim on mac for python ! |"
+echo " ||==||  ||===    ||     ||     |    |  |||           vim for muxi studio     |"
 echo " ||  ||  ||====   ||__|  ||__|  |====|  \ /     vim                           |"
 echo " =============================================================================="
