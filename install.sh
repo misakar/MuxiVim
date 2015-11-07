@@ -14,7 +14,9 @@ echo "\n"
 
 # .vim
 echo "----making .vim----"
-cp -r ~/MuxiVim/ ~/.vim
+# cp -r ~/MuxiVim/ ~/.vim
+# fix ISSUE #4
+cp -r MuxiVim .vim
 
 
 # .vimrc
