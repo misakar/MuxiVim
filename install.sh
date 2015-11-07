@@ -16,12 +16,12 @@ echo "\n"
 echo "----making .vim----"
 # cp -r ~/MuxiVim/ ~/.vim
 # fix ISSUE #4
-cp -r MuxiVim .vim
+mv MuxiVim .vim
 
 
 # .vimrc
 echo "----making .vimrc----"
-cp  ~/MuxiVim/vimrc ~/.vimrc
+cp  ~/.vim/vimrc ~/.vimrc
 
 
 # 安装插件
