@@ -140,3 +140,7 @@ url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 
     1.修改vimrc文件，将目录树开启由ff设置为;
     2.设置vim的python格式化为Google推荐的python格式
+
+2015年11月12日:
+
+	加入自定义的tmux配置
