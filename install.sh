@@ -55,6 +55,13 @@ echo "install nerdtree done! \n"
 echo "----install done!----"
 
 
+# tmux
+cd ~
+echo "config tmux"
+cp .vim/tmux.conf ~/.tmux.conf
+echo "----tmux done!----"
+
+
 echo " =============================================================================="
 echo " |                                 MuxiVim                                    |"
 echo " |          ref -> https://github.com/mbrochh/vim-as-a-python-ide             |"

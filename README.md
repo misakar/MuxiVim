@@ -8,13 +8,16 @@
 ### 服务器端截图
 ![my_vim](http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-24%20上午12.45.15.png) <br/>
 
+### MuxiVim + 自定义tmux配置: ~超级IDE~
+![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>
+
 ## use MuxiVim
 
     MuxiVim 是vim编辑器的一个DIY,采用[pathogen]管理插件,她集成了常用的vim插件, 既可以充当文本编辑器,又可以
     秒变IDE
 
 ## install MuxiVim
-### 0. 升级你的vim
+### 0. 升级你的vim, 确认安装tmux
 
     确保你的vim是7.4，否则部分插件无法使用
     如果你的vim是7.4，那么请跳过步骤0
@@ -84,8 +87,19 @@
 
 参见[MuxiVim plugin repo]()
 
-<hr/>
+## tmux 配置
 
+	C-a 为tmux命令热键
+	C-a r: 自动跟新配置(配置文件: ~/.tmux.conf)
+	C-a ": 上下分屏
+	C-a %: 左右分屏
+	C-a j: 上移屏
+	C-a k: 下移
+	C-a h: 左移
+	C-a l: 右移
+	开启鼠标: 可使用鼠标在窗格间切换、改变窗格大小
+
+<hr/>
 ## contribute to MuxiVim
 
     MuxiVim 是开源的采用GPL协议，所以希望所有使用MuxiVim的人都可以为这个vim编辑器
