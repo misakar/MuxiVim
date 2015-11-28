@@ -2,11 +2,8 @@
 ## vim for muxi studio
 
 ## MuxiVim is great!
-### mac 本地截图
+### MuxiVim
 ![my_vim](http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-18%20上午11.03.55.png) <br/>
-
-### 服务器端截图
-![my_vim](http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-24%20上午12.45.15.png) <br/>
 
 ### MuxiVim + 自定义tmux配置: ~超级IDE~
 ![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>

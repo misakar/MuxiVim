@@ -7,7 +7,7 @@
 # ===================
 
 # 开始安装
-echo "----starting install n-vim!----"
+echo "----starting install MuxiVim!----"
 cd ~
 echo "\n"
 
