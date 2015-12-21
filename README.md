@@ -3,7 +3,7 @@
 
 ## MuxiVim is great!
 ### MuxiVim
-![my_vim](http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-18%20上午11.03.55.png) <br/>
+![my_vim](http://7xj431.com1.z0.glb.clouddn.com/muxivim) <br/>
 
 ### MuxiVim + 自定义tmux配置: ~超级IDE~
 ![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>
