@@ -67,20 +67,20 @@ vim for muxi studio
 ![nerd tree](http://7xj431.com1.z0.glb.clouddn.com/nerdtree)
 
 2. C-p快速搜索文件
-![]()
+![ctrl](http://7xj431.com1.z0.glb.clouddn.com/ctrlp)
 
 3. :Minimap 开启minimap
-![]()
+![minimap](http://7xj431.com1.z0.glb.clouddn.com/minimap)
 
 4. , + e ＝ wq
 5. , + E = q!
 6. v进入可视模式后全选,=进行代码格式化
-![]()
+![v](http://7xj431.com1.z0.glb.clouddn.com/v)
 
 #### 2. i插入模式
 
 1. f2: 在插入模式下复制粘贴
-![]()
+![paste](http://7xj431.com1.z0.glb.clouddn.com/paste)
 
 #### 3. v可视模式
 其余快捷键与vim默认快捷键相同
