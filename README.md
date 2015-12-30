@@ -3,7 +3,7 @@ vim for muxi studio
 ![muxi](https://avatars2.githubusercontent.com/u/10476331?v=3&s=200)
 
 ## MuxiVim is great!
-![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>
+![MuxiVim](http://7xj431.com1.z0.glb.clouddn.com/muxivim2)
 
 ## use MuxiVim
 
@@ -85,7 +85,8 @@ vim for muxi studio
 #### 3. v可视模式
 其余快捷键与vim默认快捷键相同
 
-### tmux 配置
+### tmux 配置(MuxiVim + Tmux = Super IDE!!!)
+![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>
 
 1. C-a 为tmux命令热键
 2. C-a r: 自动跟新配置(配置文件: ~/.tmux.conf)
