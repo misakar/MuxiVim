@@ -1,11 +1,8 @@
 # MuxiVim
-## vim for muxi studio
+vim for muxi studio
+![muxi](https://avatars2.githubusercontent.com/u/10476331?v=3&s=200)
 
 ## MuxiVim is great!
-### MuxiVim
-![my_vim](http://7xj431.com1.z0.glb.clouddn.com/muxivim) <br/>
-
-### MuxiVim + 自定义tmux配置: ~超级IDE~
 ![vimux](http://7xj431.com1.z0.glb.clouddn.com/ppp) <br/>
 
 ## use MuxiVim
@@ -55,48 +52,56 @@
 
     1. 在github上找寻相关插件
     2. 在 ~/.vim/bundle/ clone 插件所在的仓库
-    3. 依据插件文档在 vimrc 文件中添加配置
+    3. 依据插件文档在 ~/.vimrc 文件中添加配置
 
-### 特殊快捷键设置(完整说明: ISSUE #3)
+### 特殊快捷键设置+截图(完整说明: ISSUE #3)
+#### 0.预备:
 
-    0.预备:
-        1.模式之间采用 jk 切换(jk绑定<esc>)
-        2.<space>空格进入命令模式(<space>绑定:)
-        3.<leader>键映射为,
+1. 模式之间采用 jk 切换(jk绑定<esc>)
+2. <space>空格进入命令模式(<space>绑定:)
+3. <leader>键映射为,
 
-    1. normal正常模式
-        1. ;开启目录树导航
-        2. C-p快速搜索文件
-        3. /文件内查找
-        4. :Minimap 开启minimap
-        5. , + e ＝ wq
-        6. , + E = q!
-        7. v进入可视模式后全选,=进行代码格式化
+#### 1.normal正常模式
 
-    2. i插入模式
-        1. f2: 在插入模式下复制粘贴
+1. ;开启目录树导航
+![nerd tree](http://7xj431.com1.z0.glb.clouddn.com/nerdtree)
 
-    3. v可视模式
+2. C-p快速搜索文件
+![]()
 
-    其余快捷键与vim默认快捷键相同
+3. :Minimap 开启minimap
+![]()
 
-## MuxiVim plugin
+4. , + e ＝ wq
+5. , + E = q!
+6. v进入可视模式后全选,=进行代码格式化
+![]()
 
-参见[MuxiVim plugin repo]()
+#### 2. i插入模式
 
-## tmux 配置
+1. f2: 在插入模式下复制粘贴
+![]()
 
-	C-a 为tmux命令热键
-	C-a r: 自动跟新配置(配置文件: ~/.tmux.conf)
-	C-a ": 上下分屏
-	C-a %: 左右分屏
-	C-a j: 上移屏
-	C-a k: 下移
-	C-a h: 左移
-	C-a l: 右移
-	开启鼠标: 可使用鼠标在窗格间切换、改变窗格大小
+#### 3. v可视模式
+其余快捷键与vim默认快捷键相同
+
+### tmux 配置
+
+1. C-a 为tmux命令热键
+2. C-a r: 自动跟新配置(配置文件: ~/.tmux.conf)
+3. C-a ": 上下分屏
+4. C-a %: 左右分屏
+5. C-a j: 上移屏
+6. C-a k: 下移
+7. C-a h: 左移
+8. C-a l: 右移
+9. 开启鼠标: 可使用鼠标在窗格间切换、改变窗格大小
 
 <hr/>
+
+## MuxiVim plugin repo
+url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
+
 ## contribute to MuxiVim
 
     MuxiVim 是开源的采用GPL协议，所以希望所有使用MuxiVim的人都可以为这个vim编辑器
@@ -117,8 +122,6 @@
     我会定期检查ISSUE并将分享插件添加进插件库,然后在更新日志中记录，这样所有所有使用
     MuxiVim的人就可以了结并选择使用你分享的插件啦:)
 
-## MuxiVim plugin repo
-url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 
 ## update MuxiVim
 
