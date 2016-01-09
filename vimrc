@@ -29,6 +29,9 @@ nnoremap <space> :
 nnoremap <space>n <space>bn
 nnoremap <space>p <space>bp
 
+" 将tab转化为空格(针对python的缩进问题)
+vnoremap <space>%ret! 4 <space>op
+
 
 " 复制、粘贴大量代码
 " --INSERT(paste)--
@@ -92,11 +95,9 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
-color wombat256mod
-" color TNB
-" color TNBlue
-" color T
-" color m
+" color wombat256mod
+color clue
+" color blackdust
 
 
 " 代码高亮(皮肤很重要:)
@@ -106,9 +107,13 @@ syntax on
 
 
 " google yapf 格式化工具规定的python代码风格
-autocmd FileType python set shiftwidth=2
-autocmd FileType python set tabstop=2
-autocmd FileType python set softtabstop=2
+" autocmd FileType python set shiftwidth=2
+" autocmd FileType python set tabstop=2
+" autocmd FileType python set softtabstop=2
+" tab 和 自动缩进配置
+set tabstop=4  " 设置tab的宽度为4个字符
+set shiftwidth=4  " 设置自动缩进为4个字符
+set expandtab  " 用space代替tab的输入
 
 
 " 显示行号
@@ -220,7 +225,7 @@ let g:minimap_highlight='Visual'
 " neocomplete.vim 配置
 " cd ~/.vim/bundle
 " git clone https://github.com/Shougo/neocomplete.vim.git
-let g:neocomplete#enable_at_startup = 1
+" let g:neocomplete#enable_at_startup = 1
 
 
 set completeopt=longest,menuone

@@ -103,6 +103,13 @@ vim for muxi studio
 ## MuxiVim plugin repo
 url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 
+## MuxiVim 配色
+MuxiVim内置3种配色:<br/>
+
+wombat255mode, clue, blackdust<br/>
+
+可以在vimrc中选择配置
+
 ## contribute to MuxiVim
 
     MuxiVim 是开源的采用GPL协议，所以希望所有使用MuxiVim的人都可以为这个vim编辑器
@@ -145,3 +152,8 @@ url:https://github.com/neo1218/MuxiVim/tree/master/bundle <br/>
 2015年11月12日:
 
 	加入自定义的tmux配置
+
+2016年1月9日:
+
+    添加配色说明
+
