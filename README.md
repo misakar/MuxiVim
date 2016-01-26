@@ -3,7 +3,6 @@ vim for muxi studio
 ![muxi](https://avatars2.githubusercontent.com/u/10476331?v=3&s=200)
 
 ## MuxiVim is great!
-![MuxiVim](http://7xj431.com1.z0.glb.clouddn.com/muxivim2)
 
 ## use MuxiVim
 
