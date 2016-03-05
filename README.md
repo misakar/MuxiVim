@@ -53,6 +53,12 @@ directories.</code><br/>
 --> <code>Using the jedi autocompletion library for VIM.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L185)
 
+## Themes
+the default theme is [muxi](https://github.com/neo1218/MuxiVim/blob/master/muxivim/colors/muxi.vim) <br/>
+you can config your own theme on this website:<br/>
+--> http://bytefluent.com/vivify/
+
+
 ## License
 GNU General Public License, version 2 (GPL-2.0)
 
