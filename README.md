@@ -41,7 +41,7 @@ directories.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L55)
 <hr/>
 ### [TagBar](https://github.com/majutsushi/tagbar)
---> <code>Vim plugin that displays tags in a window, ordered by scope<code><br/>
+--> <code>Vim plugin that displays tags in a window, ordered by scope</code><br/>
 ![tagbar](http://7xj431.com1.z0.glb.clouddn.com/tagrbar) <br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L171)
 <hr/>
