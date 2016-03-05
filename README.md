@@ -58,7 +58,7 @@ GNU General Public License, version 2 (GPL-2.0)
 
 ## Thanks
 
-+ <<vim使用技巧>>
++ vim实用技巧
 + https://www.youtube.com/watch?v=aHm36-na4-4
 + https://github.com/mbrochh/vim-as-a-python-ide
 + http://java-hackers.com/p/tracyone/vim
