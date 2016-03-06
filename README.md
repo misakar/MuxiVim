@@ -33,8 +33,9 @@ directories.</code><br/>
 ### [Vim-Airline](https://github.com/vim-airline/vim-airline)
 --> <code>Lean & mean status/tabline for vim that's light as air.</code><br/>
 ![airline](https://raw.githubusercontent.com/wiki/vim-airline/vim-airline/screenshots/demo.gif)<br/>
---> [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
---> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L174)
+--> [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)&nbsp
+--> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L174)&nbsp
+--> [vim-airline字体配置](http://www.jianshu.com/p/310368097c75)
 <hr/>
 ### [NerdTree](https://github.com/scrooloose/nerdtree)
 --> <code>A tree explorer plugin for vim.</code><br/>
