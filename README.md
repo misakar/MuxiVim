@@ -54,8 +54,8 @@ directories.</code><br/>
 ### [Jedi-Vim](https://github.com/davidhalter/jedi-vim)
 --> <code>Using the jedi autocompletion library for VIM.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L185)
-###
-[vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
+<hr/>
+### [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
 --> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
 --> [config code](https://github.com/altercation/vim-colors-solarized)
 
