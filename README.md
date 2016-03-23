@@ -10,7 +10,9 @@
        |_\           -> powered by neo1218 <-
 
 ## Screenshots
+### muxi light(default)
 ![start2](http://7xj431.com1.z0.glb.clouddn.com/muxivimstart2)<br/>
+### muxi dark
 ![start3](http://7xj431.com1.z0.glb.clouddn.com/muxivim3)
 
 ## Install
@@ -52,6 +54,10 @@ directories.</code><br/>
 ### [Jedi-Vim](https://github.com/davidhalter/jedi-vim)
 --> <code>Using the jedi autocompletion library for VIM.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L185)
+###
+[vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
+--> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
+--> [config code](https://github.com/altercation/vim-colors-solarized)
 
 ## Themes
 the default theme is [muxi](https://github.com/neo1218/MuxiVim/blob/master/muxivim/colors/muxi.vim) <br/>

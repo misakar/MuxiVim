@@ -16,6 +16,7 @@ set encoding=utf-8
 " AUTOCMD CONFIG
 autocmd! bufwritepost .vimrc source %
 autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * NERDTree
 
 " KEY MAP
 " <esc> 2 jk
@@ -75,15 +76,20 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=blue guibg=blue
 au InsertLeave * match ExtraWhitespace /\s\+$/
 
 " Color Theme
-" -- muxi(default theme)
-"  -- wombat256mod
-"   -- clue
-"    -- blackdust
+" -- muxi light (default theme)
+" -- muxi dark
 set t_Co=256
-color muxi
-" color wombat256mod
-" color clue
-" color blackdust
+" -----  muxi light -----
+" color muxi
+" -----  muxi dark  -----
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+let g:solarized_contrast="normal"
+let g:solarized_visibility="normal"
+syntax enable
+set background=dark
+colorscheme solarized
+" -----------------------
 
 " Code Syntax
 filetype off
@@ -173,7 +179,7 @@ nmap <F8> :TagbarToggle<CR>
 
 " vim-airline setting
 set laststatus=2
-let g:airline_theme="sol"
+let g:airline_theme="luna"
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
@@ -199,4 +205,3 @@ let g:minimap_highlight='Visual'
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
-
