@@ -10,7 +10,8 @@
        |_\           -> powered by neo1218 <-
 
 ## Screenshots
-![start](http://7xj431.com1.z0.glb.clouddn.com/muxivimstart2)
+![start2](http://7xj431.com1.z0.glb.clouddn.com/muxivimstart2)<br/>
+![start3](http://7xj431.com1.z0.glb.clouddn.com/muxivim3)
 
 ## Install
 
