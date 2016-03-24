@@ -64,6 +64,10 @@ the default theme is [muxi](https://github.com/neo1218/MuxiVim/blob/master/muxiv
 you can config your own theme on this website:<br/>
 --> http://bytefluent.com/vivify/
 
+## Tmux
+Tmux是```unix*```下的一个分屏利器! **Tmux +
+Vim**是我非常喜欢的一种开发方式,这里上传了我的[tmux配置](https://github.com/neo1218/MuxiVim/blob/master/tmux.conf), 效果:<br/>
+![myTmux + MuxiVim](http://7xj431.com1.z0.glb.clouddn.com/muxitmux)
 
 ## License
 GNU General Public License, version 2 (GPL-2.0)
