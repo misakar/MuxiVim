@@ -10,126 +10,125 @@
 " =======================================================
 " -------------------- Basic Config ---------------------
 
-" CHARACTOR ENCODING
+" Autocmd Config
+" -- auto run "source ~/.vimrc"
+autocmd! bufwritepost .vimrc source %
+" autocmd StdinReadPre * let s:std_in=1
+
+" Character Encoding
 set encoding=utf-8
 
-" AUTOCMD CONFIG
-autocmd! bufwritepost .vimrc source %
-autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * NERDTree
-
-" KEY MAP
-" <esc> 2 jk
+" Key Map
+" -- <esc> 2 jk
+" -- : 2 <space>
 inoremap jk <esc>
-" : 2 <space>
 nnoremap <space> :
-
-" next & prev
+" -- next & prev
 nnoremap <space>n <space>bn
 nnoremap <space>p <space>bp
 
-" tab 2 4 <space> for python
-vnoremap <space>%ret! 4 <space>op
-
-" --INSERT(paste)--
+" -- insert(paste)
 set pastetoggle=<F2>
 set clipboard=unnamed
-
-" BACKSPACE
+" -- BACKSPACE
 set bs=2
 
-" LEADER ,
+" Leader
 let mapleader = ","
-
-" markdown preview
-let g:instant_markdown_autostart = 0
 
 " Ctrl -> nohl
 nnoremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
-" (force) Exit Mode
+" Exit Mode (force)
 noremap <Leader>e :quit<CR>
 noremap <Leader>E :qa!<CR>
 
-" nerdtree
+" Nerdtree
 map ; :NERDTreeToggle<CR>
 let NERDTreeDirArrows=0
 
-" vim move
+" Vim move
 map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
-" vim tab move
+" Vim previous buffer & next buffer
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
-" >> , <<
-vnoremap < <gv  " 方便减少整段缩进
-vnoremap > >gv  " 增加整段缩进
+" >>, <<
+vnoremap < <gv
+vnoremap > >gv
 
-" show empty <space>
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=blue guibg=blue
+" Show empty <space>
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=green guibg=green
 au InsertLeave * match ExtraWhitespace /\s\+$/
 
 " Color Theme
-" -- muxi light (default theme)
-" -- muxi dark
+" -- muxi
+"  -- wombat256mod
+"   -- clue
+"    -- blackdust
+"     -- solarized(default theme)
 set t_Co=256
-" -----  muxi light -----
 " color muxi
-" -----  muxi dark  -----
+" color wombat256mod
+" color clue
+" color blackdust
+" solarized
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:solarized_contrast="normal"
 let g:solarized_visibility="normal"
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
-" -----------------------
 
 " Code Syntax
 filetype off
 filetype plugin indent on
 syntax on
 
-" tab set (important for pythoner)
+" Tab set (important for pythoner)
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" -- change tab to 4 <space> for python
+vnoremap <space>%ret! 4 <space>op
 
 " More for Vim
 set number  " show line num
-set tw=79   " width of document (used by gd)
+set tw=80   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
-" format
+" Format
 vmap Q gq
 nmap Q gqap
 
-" others
+" Others
 set history=700
 set undolevels=700
 
-" search setting
+" Search setting
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 
-" Disable stupid backup and swap files - they trigger too many events
+" Disable stupid backup and swap files -
+" they trigger too many events
 " for file system watchers
 set nobackup
 set nowritebackup
 set noswapfile
 
-" cscope setting
+" Cscope Setting
 if has("cscope")
     set csprg=/usr/bin/cscope
     set csto=1
@@ -205,3 +204,5 @@ let g:minimap_highlight='Visual'
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+" To be continued
