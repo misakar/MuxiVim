@@ -33,6 +33,19 @@ set clipboard=unnamed
 " -- BACKSPACE
 set bs=2
 
+" -- toggle fold: z
+let g:FoldMethod = 0
+map z :call ToggleFold()<cr>
+fun! ToggleFold()
+    if g:FoldMethod == 0
+        exe "normal! zM"
+        let g:FoldMethod = 1
+    else
+        exe "normal! zR"
+        let g:FoldMethod = 0
+    endif
+endfun
+
 " Leader
 let mapleader = ","
 
