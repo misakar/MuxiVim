@@ -75,7 +75,16 @@ GNU General Public License, version 2 (GPL-2.0)
 ## Thanks
 
 + vim实用技巧
++ [k-vim](https://github.com/wklken/k-vim)
 + https://www.youtube.com/watch?v=YhqsjUUHj6g
 + https://github.com/mbrochh/vim-as-a-python-ide
 + http://java-hackers.com/p/tracyone/vim
+
+## VIM 大法好
+Vi之大道如我心之禅, <br/>
+Vi之慢路即为禅修, <br/>
+Vi之命令禅印于心, <br/>
+未得此道者视之怪诞, <br/>
+与之为伴者洞其真谛, <br/>
+长修此道者巨变人生。<br/>
 
