@@ -36,7 +36,9 @@ git clone https://github.com/scrooloose/nerdtree
 ### install tagbar
 git clone https://github.com/majutsushi/tagbar
 ### install command-t
-git clone https://github.com/wincent/command-t
+# git clone https://github.com/wincent/command-t
+### install ctrlp.vim
+git clone https://github.com/kien/ctrlp.vim
 ### install jedi-vim
 git clone https://github.com/davidhalter/jedi-vim
 ### install vim-colors-solarized

@@ -49,9 +49,14 @@ directories.</code><br/>
 --> <code>Vim plugin that displays tags in a window, ordered by scope</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L171)
 <hr/>
-### [Command-T](https://github.com/wincent/command-t)
---> <code>Fast file navigation for VIM</code><br/>
+
+> ### [Command-T](https://github.com/wincent/command-t)
+> --> <code>Fast file navigation for VIM</code><br/>
+
 <hr/>
+### [ctrlp.vim](https://github.com/kien/ctrlp.vim)
+--> <code>Fast Fast file navigation for VIM</code><br/>
+
 ### [Jedi-Vim](https://github.com/davidhalter/jedi-vim)
 --> <code>Using the jedi autocompletion library for VIM.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L185)
