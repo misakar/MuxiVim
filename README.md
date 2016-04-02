@@ -17,10 +17,11 @@
 
 ## Install
 
-+ Clone this repo
-    + Change muxivim to ~/.vim
-        + Change vimrc to ~/.vimrc
-            + Install the following plugins
+    $ cd ~
+    $ git clone https://github.com/neo1218/muxivim
+    $ cd muxivim
+    $ chmod 777 install.sh
+    $ ./install.sh
 
 ## Plugins
 ### [Vim-Pathogen](https://github.com/tpope/vim-pathogen)
