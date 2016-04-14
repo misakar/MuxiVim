@@ -9,7 +9,7 @@
 
 # make ~/.vim
 cd ~
-rm -rf ~/.vim && cp -f muxivim ~/.vim
+rm -rf ~/.vim && cp -rf muxivim/muxivim ~/.vim
 cd ~
 
 # make ~/.vimrc
@@ -18,8 +18,7 @@ cp vimrc ~/.vimrc
 cd ~
 
 # install vim plugins
-cd ~/.vim
-cd bundle
+cd ~/.vim/bundle
 
 ## install vim-pathogen
 ## already installed
