@@ -61,6 +61,11 @@ directories.</code><br/>
 --> <code>Using the jedi autocompletion library for VIM.</code><br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L185)
 <hr/>
+### [delimitMate](https://github.com/Raimondi/delimitMate)
+--> <code>provides insert mode auto-completion for quotes, parens,
+brackets, etc.</code><br/>
+--> [config code]()
+<hr/>
 ### [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
 --> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
 --> [config code](https://github.com/altercation/vim-colors-solarized)

@@ -114,10 +114,10 @@ vnoremap <space>%ret! 4 <space>op
 
 " More for Vim
 set number  " show line num
-set tw=80   " width of document (used by gd)
+set tw=86   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
+set colorcolumn=86
 highlight ColorColumn ctermbg=233
 
 " Format
@@ -186,6 +186,10 @@ let g:startify_custom_header = [
             \ '',
             \ ]
 
+" Command-T setting
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " TagBar setting
 nmap <F8> :TagbarToggle<CR>
 
@@ -217,5 +221,11 @@ let g:minimap_highlight='Visual'
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+" vim/indentLine setting
+set background=light
+
+" delimitMate
+au FileType python let b:delimitMate_nesting_quotes = ['"']
 
 " To be continued
