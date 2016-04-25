@@ -75,6 +75,21 @@ the default theme is [muxi](https://github.com/neo1218/MuxiVim/blob/master/muxiv
 you can config your own theme on this website:<br/>
 --> http://bytefluent.com/vivify/
 
+## MuxiVim 键位设置
+**基本键位设置**
+
++ <ESC> --> jk --> jk 有益身体健康
++ <SPACE> --> : --> 方便进入命令模式
++ z --> :call ToggleFold() --> 代码段折叠
++ <F2> --> 粘贴模式
++ 因为写Python的缘故, Tab自动格式为空格
+
+**插件键位设置**
+
++ <F8> --> 呼出tag
++ Ctrl-p --> 文件快速搜索(依据文件名)
++ ; --> NERDTreeToggle
+
 ## Tmux
 Tmux是```unix*```下的一个分屏利器! **Tmux +
 Vim**是我非常喜欢的一种开发方式,这里上传了我的[tmux配置](https://github.com/neo1218/MuxiVim/blob/master/tmux.conf), 效果:<br/>
