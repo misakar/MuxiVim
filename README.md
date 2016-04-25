@@ -78,15 +78,15 @@ you can config your own theme on this website:<br/>
 ## MuxiVim 键位设置
 **基本键位设置**
 
-+ <ESC> --> jk --> jk 有益身体健康
-+ <SPACE> --> : --> 方便进入命令模式
++ ```<ESC>``` --> jk --> jk 有益身体健康
++ ```<SPACE>``` --> : --> 方便进入命令模式
 + z --> :call ToggleFold() --> 代码段折叠
-+ <F2> --> 粘贴模式
++ ```<F2>``` --> 粘贴模式
 + 因为写Python的缘故, Tab自动格式为空格
 
 **插件键位设置**
 
-+ <F8> --> 呼出tag
++ ```<F8>``` --> 呼出tag
 + Ctrl-p --> 文件快速搜索(依据文件名)
 + ; --> NERDTreeToggle
 
