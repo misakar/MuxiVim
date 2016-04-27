@@ -47,7 +47,8 @@ directories.</code><br/>
 <hr/>
 ### [TagBar](https://github.com/majutsushi/tagbar)
 --> <code>Vim plugin that displays tags in a window, ordered by scope</code><br/>
---> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L171)
+--> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L171)<br/>
+--> you need install <code>ctags</code> first
 <hr/>
 
 > ### [Command-T](https://github.com/wincent/command-t)
