@@ -10,11 +10,8 @@
        | |        ~~ vim for muxistudio ~~
        |_\           -> powered by neo1218 <-
 
-## Screenshots
-### muxi light(default)
-![start2](http://7xj431.com1.z0.glb.clouddn.com/muxivimstart2)<br/>
-### muxi dark
-![start3](http://7xj431.com1.z0.glb.clouddn.com/muxivim3)
+## Fast&Configurable
+![muxivim](http://7xj431.com1.z0.glb.clouddn.com/muxivim.gif)
 
 ## Install
 
