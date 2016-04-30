@@ -40,6 +40,12 @@ git clone https://github.com/majutsushi/tagbar
 git clone https://github.com/kien/ctrlp.vim
 ### install jedi-vim
 git clone https://github.com/davidhalter/jedi-vim
+### install delimitMate
+git clone https://github.com/Raimondi/delimitMate
+### install gundo.vim
+git clone https://github.com/sjl/gundo.vim
+### install vim-surround
+git clone https://github.com/tpope/vim-surround
 ### install vim-colors-solarized
 git clone https://github.com/altercation/vim-colors-solarized
 cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
