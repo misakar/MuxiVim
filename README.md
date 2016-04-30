@@ -65,8 +65,10 @@ directories.</code><br/>
 ### [delimitMate](https://github.com/Raimondi/delimitMate)
 --> <code>provides insert mode auto-completion for quotes, parens,
 brackets, etc.</code><br/>
---> [config code]()
 <hr/>
+### [Gundo.vim](https://github.com/sjl/gundo.vim)
+--> <code>Gundo.vim is Vim plugin to visualize your Vim undo tree.</code><br/>
+--> [website](http://sjl.bitbucket.org/gundo.vim/)<br/>
 ### [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
 --> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
 --> [config code](https://github.com/altercation/vim-colors-solarized)

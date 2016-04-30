@@ -228,4 +228,7 @@ set background=light
 " delimitMate
 au FileType python let b:delimitMate_nesting_quotes = ['"']
 
+" vim-gundo
+nnoremap <F5> :GundoToggle<CR>
+
 " To be continued
