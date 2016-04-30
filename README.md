@@ -85,10 +85,15 @@ you can config your own theme on this website:<br/>
 ## MuxiVim 键位设置
 **基本键位设置**
 
++ ```<Leader>``` --> , --> Leader键位设置
 + ```<ESC>``` --> jk --> jk 有益身体健康
 + ```<SPACE>``` --> : --> 方便进入命令模式
 + z --> :call ToggleFold() --> 代码段折叠
 + ```<F2>``` --> 粘贴模式
++ ```<Leader> e``` --> 快速退出
++ ```<Leader> E``` --> 快速强制退出
++ ```<Leader> w``` --> 保存
++ ```<Leader> c``` --> 快速呼出vimrc进行编辑
 + 因为写Python的缘故, Tab自动格式为空格
 
 **插件键位设置**
