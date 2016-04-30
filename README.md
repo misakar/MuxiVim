@@ -93,9 +93,10 @@ you can config your own theme on this website:<br/>
 
 **插件键位设置**
 
++ ```<F5>``` --> 呼出undotree
 + ```<F8>``` --> 呼出tag
 + Ctrl-p --> 文件快速搜索(依据文件名)
-+ ; --> NERDTreeToggle
++ ; --> NERDTreeToggle(目录树)
 
 ## Tmux
 Tmux是```unix*```下的一个分屏利器! **Tmux +
