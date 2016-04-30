@@ -69,6 +69,10 @@ brackets, etc.</code><br/>
 ### [Gundo.vim](https://github.com/sjl/gundo.vim)
 --> <code>Gundo.vim is Vim plugin to visualize your Vim undo tree.</code><br/>
 --> [website](http://sjl.bitbucket.org/gundo.vim/)<br/>
+### [vim-surround](https://github.com/tpope/vim-surround)
+--> <code>Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML
+tags, and more. The plugin provides mappings to easily delete, change and add such
+surroundings in pairs</code><br/>
 ### [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
 --> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
 --> [config code](https://github.com/altercation/vim-colors-solarized)
