@@ -71,11 +71,25 @@ brackets, etc.</code><br/>
 --> <code>Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML
 tags, and more. The plugin provides mappings to easily delete, change and add such
 surroundings in pairs</code><br/>
+<hr/>
+
+## Code Completion
+### [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+--> <code>A code-completion engine for Vim </code><br/>
+--> **zip size**: 279KB<br/>
+
+### [NeoComplete](https://github.com/Shougo/neocomplete.vim)
+--> <code>neocomplete is the abbreviation of "neo-completion with cache". It provides
+keyword completion system by maintaining a cache of keywords in the current buffer.
+neocomplete can be customized easily and has many more features than Vim's built-in
+completion.</code><br/>
+--> **zip size**: 123KB<br/>
+
+## Themes
 ### [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)<br/>
 --> <code>precision colorscheme for the vim text editor http://ethanschoonover.com/solarized</code><br/>
 --> [config code](https://github.com/altercation/vim-colors-solarized)
-
-## Themes
+<hr/>
 the default theme is [muxi](https://github.com/neo1218/MuxiVim/blob/master/muxivim/colors/muxi.vim) <br/>
 you can config your own theme on this website:<br/>
 --> http://bytefluent.com/vivify/
