@@ -118,8 +118,7 @@ you can config your own theme on this website:<br/>
 
 ## Tmux
 Tmux是```unix*```下的一个分屏利器! **Tmux +
-Vim**是我非常喜欢的一种开发方式,这里上传了我的[tmux配置](https://github.com/neo1218/MuxiVim/blob/master/tmux.conf), 效果:<br/>
-![myTmux + MuxiVim](http://7xj431.com1.z0.glb.clouddn.com/muxitmux)
+Vim**是我非常喜欢的一种开发方式,这里上传了我的[tmux配置](https://github.com/neo1218/MuxiVim/blob/master/tmux.conf)
 
 ## License
 GNU General Public License, version 2 (GPL-2.0)
@@ -140,4 +139,5 @@ Vi之命令禅印于心, <br/>
 与之为伴者洞其真谛, <br/>
 长修此道者巨变人生。<br/>
 
+![muxivim](http://7xj431.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-02%20%E4%B8%8B%E5%8D%886.28.16.png)
 
