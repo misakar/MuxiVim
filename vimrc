@@ -10,15 +10,50 @@
 " =======================================================
 " -------------------- Basic Config ---------------------
 
+" dein
+if &compatible
+  set nocompatible
+endif
+set runtimepath^=/Users/apple/.vim/repos/github.com/Shougo/dein.vim
+" ====================  Plugin ====================================
+call dein#begin(expand('~/.cache/dein'))
+call dein#add('/Users/apple/.vim/repos/github.com/Shougo/dein.vim')
+call dein#add('Shougo/neocomplete.vim')
+call dein#add('mhinz/vim-startify')
+call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
+call dein#add('scrooloose/nerdtree')
+call dein#add('majutsushi/tagbar')
+call dein#add('kien/ctrlp.vim')
+call dein#add('Raimondi/delimitMate')
+call dein#add('davidhalter/jedi-vim')
+call dein#add('sjl/gundo.vim')
+call dein#add('tpope/vim-surround')
+" call dein#add('Valloric/YouCompleteMe')
+call dein#add('altercation/vim-colors-solarized')
+call dein#end()
+" =================================================================
+filetype plugin indent on
+
 " Autocmd Config
 " -- auto run "source ~/.vimrc"
 autocmd! bufwritepost .vimrc source %
+" autocmd bufwritepre *py :normal gg=G
 " autocmd StdinReadPre * let s:std_in=1
 
 " Character Encoding
 set encoding=utf-8
 
+" Leader
+let mapleader = ","
+
 " Key Map
+" Ctrl-u
+nnoremap <c-u> viwU
+" fast config vimrc file
+nnoremap <Leader>c :vs $MYVIMRC<CR>
+" fast reload vimrc file
+nnoremap <Leader>s :source $MYVIMRC<CR>
 " -- <esc> 2 jk
 " -- : 2 <space>
 inoremap jk <esc>
@@ -46,9 +81,6 @@ fun! ToggleFold()
     endif
 endfun
 
-" Leader
-let mapleader = ","
-
 " Ctrl -> nohl
 nnoremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
@@ -57,6 +89,7 @@ inoremap <C-n> :nohl<CR>
 " Exit Mode (force)
 noremap <Leader>e :quit<CR>
 noremap <Leader>E :qa!<CR>
+noremap <Leader>w :w<CR>
 
 " Nerdtree
 map ; :NERDTreeToggle<CR>
@@ -113,10 +146,11 @@ set expandtab
 vnoremap <space>%ret! 4 <space>op
 
 " More for Vim
-set number  " show line num
-set tw=86   " width of document (used by gd)
-set nowrap  " don't automatically wrap on load
-set fo-=t   " don't automatically wrap text when typing
+set number        " show line num
+set numberwidth=1 " number width
+set tw=86         " width of document (used by gd)
+set nowrap        " don't automatically wrap on load
+set fo-=t         " don't automatically wrap text when typing
 set colorcolumn=86
 highlight ColorColumn ctermbg=233
 
@@ -163,13 +197,6 @@ nmap <C-@>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-@>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-@>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
-
-"=======================================================
-" plugin management by pathogen :)
-"=======================================================
-" mkdir -p ~/.vim/autoload ~/.vim/bundle
-" curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
-call pathogen#infect()
 
 " vim-startify setting
 let g:startify_custom_header = [

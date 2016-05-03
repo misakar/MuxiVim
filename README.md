@@ -21,13 +21,11 @@
     $ chmod 777 install.sh
     $ ./install.sh
 
+## Plugin Management
+### [dein.vim](https://github.com/Shougo/dein.vim)
+--> <code>Dein.vim is a dark powered Vim/Neovim plugin manager.</code>
+
 ## Plugins
-### [Vim-Pathogen](https://github.com/tpope/vim-pathogen)
---> <code>Manage your 'runtimepath' with ease. In practical terms, pathogen.vim
-makes it super easy to install plugins and runtime files in their own private
-directories.</code><br/>
---> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L149)
-<hr/>
 ### [Vim-Startify](https://github.com/mhinz/vim-startify)
 --> <code>The fancy start screen for Vim.</code> <br/>
 --> [config code](https://github.com/neo1218/MuxiVim/blob/master/vimrc#L157)
