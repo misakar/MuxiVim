@@ -14,12 +14,15 @@
 ![muxivim](http://7xj431.com1.z0.glb.clouddn.com/muxivim.gif)
 
 ## Install
-
-    $ cd ~
-    $ git clone https://github.com/neo1218/muxivim
-    $ cd muxivim
-    $ chmod 777 install.sh
-    $ ./install.sh
+1. make sure your vim is 7.4+, if not
+    + [how 2 vim](how 2 update vim)
+2. Shell:<code>cd ~ && git clone https://github.com/neo1218/muxivim</code>
+3. Shell:<code>cp -rf muxivim ~/.vim && cp -rf muxivim/vimrc ~/.vimrc</code>
+4. Install [dein.vim](https://github.com/Shougo/dein.vim)
+5. Install Powerline Fonts: <code>cd ~/.vim/font/powerline-fonts && ./install.sh</code>
+6. Config Vimrc: change {abspath2dein.vim} to your abspath of dein.vim
+7. Shell: <code>vim</code>
+8. Enjoy MuxiVim:)
 
 ## Plugin Management
 ### [dein.vim](https://github.com/Shougo/dein.vim)

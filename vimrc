@@ -8,9 +8,9 @@
 if &compatible
   set nocompatible
 endif
-set runtimepath^=/Users/apple/.vim/repos/github.com/Shougo/dein.vim
+set runtimepath^={abspath2dein.vim}
 call dein#begin(expand('~/.cache/dein'))
-call dein#add('/Users/apple/.vim/repos/github.com/Shougo/dein.vim')
+call dein#add('{abspath2dein.vim}')
 call dein#add('Shougo/neocomplete.vim')
 call dein#add('mhinz/vim-startify')
 call dein#add('vim-airline/vim-airline')
@@ -160,7 +160,7 @@ set noswapfile
 "     endif
 "     set csverb
 " endif
-" 
+
 " nmap <C-@>s :cs find s <C-R>=expand("<cword>")<CR><CR>
 " nmap <C-@>g :cs find g <C-R>=expand("<cword>")<CR><CR>
 " nmap <C-@>c :cs find c <C-R>=expand("<cword>")<CR><CR>
