@@ -15,9 +15,9 @@
 
 ## Install
 1. make sure your vim is 7.4+, if not
-    + [how 2 vim](how 2 update vim)
+    + [how 2 update vim](https://www.google.com.hk/search?q=how%202%20update%20vim&gws_rd=cr,ssl)
 2. Shell:<code>cd ~ && git clone https://github.com/neo1218/muxivim</code>
-3. Shell:<code>cp -rf muxivim ~/.vim && cp -rf muxivim/vimrc ~/.vimrc</code>
+3. Shell:<code>cp -rf ~/muxivim/muxivim ~/.vim && cp -rf ~/muxivim/vimrc ~/.vimrc</code>
 4. Install [dein.vim](https://github.com/Shougo/dein.vim)
 5. Install Powerline Fonts: <code>cd ~/.vim/font/powerline-fonts && ./install.sh</code>
 6. Config Vimrc: change {abspath2dein.vim} to your abspath of dein.vim
