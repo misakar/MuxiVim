@@ -12,7 +12,7 @@
        |_\           -> powered by neo1218 <-
 
 ## Fast&Configurable
-![muxivim](http://7xj431.com1.z0.glb.clouddn.com/muxivim.gif)
+![muxivim](http://7xj431.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-03%20%E4%B8%8B%E5%8D%881.15.02.png)
 
 ## Install
 1. make sure your vim is 7.4+, if not
