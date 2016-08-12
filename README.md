@@ -10,7 +10,7 @@
        |_\           -> powered by neo1218 <-
 
 ## Dead simple neovim config
-![muxivim](https://cloud.githubusercontent.com/assets/10671733/17435420/5116706a-5b43-11e6-873a-3d53e70afd6a.png)
+![muxivim](https://cloud.githubusercontent.com/assets/10671733/17623017/869c5780-60d0-11e6-8ad7-1b92206fc794.png)
 
 ## Install
 1. Install [NeoVim]( https://salt.bountysource.com/teams/neovim)
