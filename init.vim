@@ -68,6 +68,9 @@ map <Leader>m <esc>:tabnext<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
 " <---------------------------  Color Theme --------------------------->
 " default color theme is molokai
 set background=dark
