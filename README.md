@@ -114,6 +114,7 @@ you can config your own theme on this website:<br/>
 
 + ```<Leader>``` --> ```,``` --> Leader键位设置
 + ```<ESC>``` --> ```jk``` --> jk 有益身体健康
++ ```j/k``` -> ```gj/gk``` --> 自动折行时方便进入虚拟行
 + ```<SPACE>``` --> ```:``` --> 方便进入命令模式
 + ```zc``` --> ```:call ToggleFold()``` --> 代码段折叠
 + ```<F2>``` --> 粘贴模式

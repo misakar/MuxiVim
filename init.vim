@@ -1,6 +1,6 @@
 " <----------------------------  MuxiVim  --------------------------->
-" MuxiVim neovim config
-" @neo1218 on MIT License
+" dead simple neovim config
+" neo1218 @ MIT License
 " https://github.com/neo1218/muxivim
 
 " <-----------------------  Plugins Management ---------------------->
@@ -35,37 +35,33 @@ let mapleader = ","
 
 " <----------------------------  Key Map ---------------------------->
 nnoremap <c-u> viwU
-
 nnoremap <Leader>c :vs $MYVIMRC<CR>
 nnoremap <Leader>s :source $MYVIMRC<CR>
-
-inoremap jk <esc>
 nnoremap <space> :
-
 nnoremap <space>n <space>bn
 nnoremap <space>p <space>bp
-
-set pastetoggle=<F2>
-set clipboard=unnamed
-
-set bs=2
-
 nnoremap <C-n> :nohl<CR>
-vnoremap <C-n> :nohl<CR>
-inoremap <C-n> :nohl<CR>
 
 noremap <Leader>e :quit<CR>
 noremap <Leader>E :qa!<CR>
 noremap <Leader>w :w<CR>
 
-map ; :NERDTreeToggle<CR>
+inoremap jk <esc>
+inoremap <C-n> :nohl<CR>
+
+set pastetoggle=<F2>
+set clipboard=unnamed
+set bs=2
+
+vnoremap <C-n> :nohl<CR>
+
 let NERDTreeDirArrows=0
 
+map ; :NERDTreeToggle<CR>
 map <c-h> <c-w>h
 map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
-
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
@@ -73,6 +69,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " <---------------------------  Color Theme --------------------------->
+" default color theme is molokai
 set background=dark
 color molokai
 let g:molokai_original = 1
@@ -93,11 +90,10 @@ vnoremap <space>%ret! 4 <space>op
 " <--------------------------  More for Vim --------------------------->
 set number                                               " show line num
 set numberwidth=1                                         " number width
-set relativenumber
-set tw=80                               " width of document (used by gd)
-set nowrap                            " don't automatically wrap on load
-set fo-=t                    " don't automatically wrap text when typing
-set colorcolumn=80
+set relativenumber                                     " relative number
+set tw=80                                                   " text width
+set colorcolumn=80                             " colorful max text width
+set wrap linebreak nolist                               " auto wrap line
 highlight ColorColumn ctermbg=233
 
 " <----------------------------  Format ------------------------------->
@@ -163,7 +159,7 @@ let g:minimap_highlight='Visual'
 set nofoldenable
 
 " vim/indentLine setting
-set background=dark
+set background=back
 
 " delimitMate
 au FileType python let b:delimitMate_nesting_quotes = ['"']
