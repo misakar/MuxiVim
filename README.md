@@ -44,7 +44,7 @@
                 \ '',
                 \ '',
                 \ ]
-
+    
     " <-------------------------- Plugins Setting ------------------------->
 
 <hr/>
@@ -92,6 +92,9 @@ surroundings in pairs</code><br/>
 ## Code Completion
 ### [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 --> <code>A code-completion engine for Vim </code><br/>
+
+--> [Answer for this error](https://neovim.io/doc/user/provider.html): <code>YouCompleteMe unavailable: requires Vim compiled with Python (2.6+ or 3.3+) support</code>
+
 --> **zip size**: 279KB<br/>
 
 ### [NeoComplete](https://github.com/Shougo/neocomplete.vim)

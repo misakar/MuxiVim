@@ -72,6 +72,9 @@ map <Leader>m <esc>:tabnext<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
 " <---------------------------  Color Theme --------------------------->
 set background=dark
 color molokai
@@ -95,8 +98,8 @@ set number                                               " show line num
 set numberwidth=1                                         " number width
 set relativenumber
 set tw=80                               " width of document (used by gd)
-set nowrap                            " don't automatically wrap on load
-set fo-=t                    " don't automatically wrap text when typing
+set wrap                            " don't automatically wrap on load
+"set fo-=t                    " don't automatically wrap text when typing
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
